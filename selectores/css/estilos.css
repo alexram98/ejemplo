@@ -1,0 +1,40 @@
+/*SELECTOR UNIVERSAL*/
+/**{
+    background-color: rgb(103, 192, 243);
+    
+}*/
+
+/*SELECTOR DE ETIQUETA*/
+body{
+    background-color:rgb(71, 203, 229) ;
+}
+
+header{
+    background-color: chartreuse;
+}
+
+main{
+    background-color: floralwhite;
+}
+
+
+
+img{
+    width: 10%;
+}
+h3{
+    text-align: center;
+    background-color: azure;
+}
+footer{
+background-color: brown;
+}
+/*SELECTOR DE CLASES*/
+
+.parrafo{
+    background-color: rgb(18, 16, 15);
+    color: bisque;
+}
+.centrarimg {
+    text-align: center;
+}

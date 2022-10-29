@@ -1,0 +1,32 @@
+/*Selector de etiquetas*/
+body{
+    background-color: rgb(159, 133, 186);
+}
+
+header{
+    background-color: rgb(135, 192, 173);
+}
+
+main{
+    background-color: rgb(150, 197, 104);
+}
+
+h3{
+    text-align: center;
+    background-color: azure;
+}
+
+footer {
+    background-color: brown;
+}
+
+/*SELECTOR DE CLASES*/
+
+.texto {
+    background-color: rgb(18, 16, 15);
+    color: bisque;
+}
+
+.centrarimg {
+    text-align: center;
+}

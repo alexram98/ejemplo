@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de selectores</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicio de selectores</h1>
+    </header>
+    <main>
+        <section>
+            <h2>PRODUCTO</h2>
+            <section>
+                <h3>PEPSI</h3>
+                <div class="centrarimg">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdAyVEsmvu7XdIQ5vsVtLw3_1vl8CNG_TCBZKm1uKhk3rBn7TsSIMdrZX12fWgJE4CuDw&usqp=CAU"
+                        alt="">
+                </div>
+                <p class="texto">
+                    Pepsi apareció por primera vez en 1893. Su inventor fue el químico farmacéutico Caleb Davis Bradham,
+                    que preparaba y
+                    vendía la bebida en su botica en la localidad estadounidense de New Bern (Carolina del Norte).
+
+                    Conocida al principio como Brad Drink (en español: «Refresco Brad»), en 1898 su creador la denominó
+                    Pepsi Cola, en
+                    alusión a la enzima digestiva pepsina y las nueces de cola usadas en la receta. El objetivo de
+                    Bradham era crear un
+                    refresco delicioso que ayudara a la digestión y fuera un estimulante.
+                </p>
+                <form action="">
+                    <label for="">Cantidad</label>
+                    <input type="number">
+                    <button>Comprar</button>
+                </form>
+            </section>
+            <section>
+                <h3>PINGUINOS</h3>
+                <div class="centrarimg">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="">
+                </div>
+                
+                <p class="texto">
+                    Los Pinguinos Marinela son pastelitos empaquetados sabor a chocolate. Vienen rellenos de crema y
+                    tienen vitaminas y
+                    minerales añadidos. En vista de que el consumo de este producto ha aumentado en México, la PROFECO
+                    se propuso analizar a
+                    fondo el contenido de algunas marcas reconocidas de bizcochos.
+                </p>
+                <form action="">
+                    <label for="">Cantidad</label>
+                    <input type="number">
+                    <button>Comprar</button>
+                </form>
+            </section>
+            <section>
+                <h3>Galletas LIDO</h3>
+                <div class="centrarimg">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFrdjIwTMSHiHzTZqqXcyVriUy65IOi_aLl48obfneAksaJwR5TD2hJZ6KnK3OAM57Q30&usqp=CAU"
+                        alt="">
+                </div>
+                <p class="texto">
+                    PAN LIDO es una empresa familiar que por más de 67 años se ha mantenido en el corazón de los
+                    salvadoreños con sus
+                    diversos productos de panadería y galletería. Yo de Lido no me olvido.
+                    IDO es la empresa líder en el rubro de panificación, la cual se ha caracterizado por su tradición y
+                    alta calidad en su
+                    repostería, cakes, pan dulce, galletas y pan blanco.
+                </p>
+                <form action="">
+                    <label for="">Cantidad</label>
+                    <input type="number">
+                    <button>Comprar</button>
+                </form>
+            </section>
+            <section>
+                <h3 >Shampoo SEDAL</h3>
+                <div class="centrarimg">
+                    <img src="https://suppliermarcal.shop/801-large_default/shampoo-sedal.jpg" alt="">
+                </div>
+                <p class="texto">
+                    <li class="texto"> Jengibre & Óleo de Ricino</li>
+                    <li class="texto"> Pelo largo y fuerte</li>
+                    <li class="texto"> 92% ingredientes de origen natural</li>
+                    <li class="texto"> Hidrata el cabello para hacerlo más resistente!</li>
+                    <li class="texto"> Probá toda la línea de Sedal Colección Natural, Jengibre y Ricino</li>
+
+                </p>
+                <form action="">
+                    <label for="">Cantidad</label>
+                    <input type="number">
+                    <button>Comprar</button>
+                </form>
+            </section>
+            <section>
+                <h3 >COCA-COLA</h3>
+                <div class="centrarimg">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp5uqAp-cyF-zB03koIWjlOASpZniNICYSX7TE1hh7PQNfkdvoO9XaejzzLo-JqiZvRR8&usqp=CAU">
+                </div>
+                <p class="texto">
+                    Coca-Cola (conocida comúnmente como Coca en muchos países hispanohablantes; en inglés también
+                    conocida como Coke) es una
+                    bebida azucarada gaseosa vendida a nivel mundial en tiendas, restaurantes y máquinas expendedoras en
+                    más de doscientos
+                    países o territorios. Es el principal producto de The Coca-Cola Company, de origen estadounidense.
+                    En un principio,
+                    cuando la inventó el farmacéutico John Pemberton, fue concebida como una bebida medicinal patentada,
+                    aunque
+                    posteriormente, fue adquirida por el empresario Asa Griggs Candler, que hizo de la bebida una de las
+                    más consumidas del
+                    siglo xx, y del siglo xxi.
+                </p>
+                <form action="">
+                    <label for="">Cantidad</label>
+                    <input type="number">
+                    <button>Comprar</button>
+                </form>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
